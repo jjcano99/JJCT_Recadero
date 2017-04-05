@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#b3d0f7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFilaNumero"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvFilaNombreCliente"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Nombre Cliente"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvFilaFechaHora"
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="Fecha Hora"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvFilaDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:text="Descripción"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvFilaSeparador"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+
+        android:background="@android:color/background_light" />
+</LinearLayout>
